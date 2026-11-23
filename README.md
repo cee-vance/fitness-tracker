@@ -24,7 +24,7 @@ This project was developed as part of an introductory Java course and demonstrat
 - Java Collections Framework
 - File I/O
 - Enumerations
-- Console-Based User Interface 【2-bbdb31】【3-a2b6f7】【4-5c8a52】
+- Console-Based User Interface 
 
 ## Project Structure
 
@@ -73,28 +73,15 @@ This project does not include JUnit libraries in the repository. To run the test
 Compile the project and tests:
 
 ```bash
-javac -cp .;junit-platform-console-standalone.jar *.java
+javac -cp <path to the junit jar file> *.java
 ```
 
 Run the tests:
 
-```bash*java -jar junit-platform-console-s*andalone.jar --class*path . --scan-class-path
-```
-
-### *inux / macOS
-
-Compile:
-
 ```bash
-ja*ac -cp .:junit-platform-console-st*ndalone.jar *.java
+java -jar <path to the junit jar file> --classpath . --scan-class-path
 ```
 
-Run:
-
-```b*sh
-java -jar junit-platform-consol*-stand*lone.jar --class-path . --scan-cla*s-path
-```
-````*
 
 ## Example Workout Types
 
