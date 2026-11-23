@@ -75,17 +75,17 @@ public class Menu {
             for(Workout wo: weekWorkouts) {
                 
                 switch(wo.getWorkoutType()) {
-                    case WorkoutType.CARDIO:
+                    case CARDIO:
                         cardio++;
                         cardioMins += wo.getMins();
                         break;
                         
-                    case WorkoutType.STRENGTH_TRAINING_UPPER:
+                    case STRENGTH_TRAINING_UPPER:
                         strengthUpper++;
                         strengthUpperMins += wo.getMins();
                         break;
                         
-                    case WorkoutType.STRENGHT_TRAINING_LOWER:
+                    case STRENGHT_TRAINING_LOWER:
                         strengthLower++;
                         strengthLowerMins += wo.getMins();
                         break;
